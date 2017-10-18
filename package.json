@@ -1,0 +1,22 @@
+{
+  "name": "intro-to-typescript",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "nodemon -e ts --watch src -x \"npm run build\"",
+    "postinstall": "npm run build"
+  },
+  "author": "Michael Solati",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.7",
+    "word-table": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.44",
+    "nodemon": "^1.12.1",
+    "typescript": "^2.5.3"
+  }
+}
